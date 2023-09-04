@@ -4,7 +4,12 @@
         <TargetFramework>net7.0-windows</TargetFramework>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
+        <Title>ColoredConsoleLog</Title>
+        <Description>This is a small UserControl for WPF to output logs in different colors, depending on preferences, configurable with regular expressions.</Description>
+        <RepositoryUrl>https://github.com/epsilon8eridani/ColoredConsoleLog</RepositoryUrl>
+        <PackageTags>.net c# wpf console color log</PackageTags>
     </PropertyGroup>
+
 
 
 
