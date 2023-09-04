@@ -1,5 +1,7 @@
 # ColoredConsoleLog
 
+Make the log output in your WPF application beautiful!
+
 This is a small UserControl for WPF to output logs in different colors, depending on preferences, configurable with regular expressions.
 
 By default, changes the color of text in `''`, `""`, `Windows File Path`, `URL`, `[]`, or if the string contains the text `Error` or `Warning`
@@ -54,4 +56,14 @@ LogSettings.RegexColor.Add(
             new SolidColorBrush("#A78295".ColorFromHex()));
 ```
 
+## And add settings instance to XAML
+
+```XML
+<ColoredConsoleLog
+            LogText="{Binding LogText}"
+            Settings="{Binding LogSettings}" />
+```
+
 # Watch example in TestApp
+
+![TestLog](https://github.com/epsilon8eridani/ColoredConsoleLog/raw/main/Images/TestLog.png)
